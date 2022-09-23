@@ -1,0 +1,40 @@
+.container_elevator {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  /* background: ; */
+}
+/* ? Этажи */
+
+.floor-button {
+  display: flex;
+  margin: 5px;
+  padding: 2px 6px;
+  background-color: yellow;
+  width: 300px;
+  height: 40px;
+  justify-content: center;
+}
+
+/* ? ЛИФТ  */
+#door {
+  position: absolute;
+  top: 680px;
+  left: 630px;
+  transition: 4s;
+}
+
+/* ? Кнопки лифта */
+.btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 2px 6px;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+}
